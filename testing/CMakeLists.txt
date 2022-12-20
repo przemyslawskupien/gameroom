@@ -16,4 +16,4 @@ target_link_libraries(test GTest::gtest_main)
 
 include(GoogleTest)
 gtest_discover_tests(test)
-add_test(test ./testing/test) 
+add_test(test test) 
