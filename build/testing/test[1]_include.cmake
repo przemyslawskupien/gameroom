@@ -1,5 +1,0 @@
-if(EXISTS "/home/skupien/cmake_projects/template_project/build/testing/test[1]_tests.cmake")
-  include("/home/skupien/cmake_projects/template_project/build/testing/test[1]_tests.cmake")
-else()
-  add_test(test_NOT_BUILT test_NOT_BUILT)
-endif()
